@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(247, 253, 233);
+}
+
+.carousel-inner img {
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    margin: 50px 0;
+}
+
+header {
+    background-color: rgb(149, 193, 31);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card img {
+    height: 300px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card button {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+@media screen and (max-width: 575px) {
+    .carousel-inner img {
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 959px) {
+    .carousel-inner img {
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .carousel-inner img {
+        height: 800px;
+    }
+}

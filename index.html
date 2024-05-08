@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Pratique - Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ebac Ambiental</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/001.jpg" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/002.jpg" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/003.jpg" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/004.jpg" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/005.jpg" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-xl-4">
+                <div class="card">
+                    <img src="./assets/006.png" />
+                    <button type="button" class="btn btn-success">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="carousel-pagina" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="./assets/img1.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./assets/img2.jpg" />
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./assets/img3.jpg" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-pagina" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-pagina" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-pagina" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-pagina" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-pagina" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
